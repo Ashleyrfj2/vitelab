@@ -1,5 +1,6 @@
 import styles from './index.module.css'
-import {CheckLine, Computer, SquareCode,Braces} from 'lucide-react';
+import {CheckLine, Computer, SquareCode,Braces, TrashIcon} from 'lucide-react';
+import {useState} from 'react'
 
 
 const App = () => {
@@ -44,22 +45,20 @@ const App = () => {
             <div className ={styles.language} key = {name}>
               <p><CheckLine color="hotpink" size={18} /><span> Language:   </span>{name}</p>
               <p><Computer color="#00c7fc"/><span> Skill level: </span>{comfort}</p>
-              <p><Braces size={20} color="#d357fe" strokeWidth={0.5} absoluteStrokeWidth /><span>Front End:</span>{frontEnd === true ? ' Yes' : 'Nah'}</p>
-              <p><SquareCode color="#dff43cff" strokeWidth={1.5} /> <span>Back End: </span>{backend === true ? ' Yes ✔' : 'Nah'}</p> <hr></hr>
-
+              <p><Braces size={20} color="#d357fe" strokeWidth={0.5} absoluteStrokeWidth /><span>Front End:</span>{frontEnd === true ? ' ✔ Yes' : 'Nah'}</p>
+              <p><SquareCode color="#dff43cff" strokeWidth={1.5} /> <span>Back End: </span>{backend === true ? '✔ Yes ' : 'No'}</p> <hr></hr>
+              <button className ={styles.btn}><TrashIcon size={15}/>delete</button>
               </div>
           ))}
             </ul>
-          
-        
-      </>
+          </>
         )
 
 
-
-  
-      }
  
+
+
+}
   
 
 

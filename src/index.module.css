@@ -14,8 +14,21 @@ border-style: dotted;
 border-radius: 13px;
 font-size: 20px;
 padding: 20px 40px;
-color: rgb(94, 94, 215);
+color: rgb(255, 255, 255);
 background-color:black ;
 margin-bottom: 20px;
 height: 250px;
+}
+.btn{
+    width: 250px;
+    height: 35px;
+    border-style:double;
+    border-color: aqua;
+    background-color: rgb(192, 255, 66);
+    border-radius: 20px;
+    font-size: medium;
+    color:rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-kerning: auto;
+    
 }
