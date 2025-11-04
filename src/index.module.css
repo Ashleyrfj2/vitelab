@@ -1,0 +1,21 @@
+body{
+ background: #6c4ab0;
+background: linear-gradient(188deg,rgba(108, 74, 176, 1) 6%, rgba(204, 53, 204, 1) 100%);
+height: auto;
+}
+
+
+.language {
+text-align: center;
+align-content: center;
+align-items: center;
+border-color: palevioletred;
+border-style: dotted;
+border-radius: 13px;
+font-size: 20px;
+padding: 20px 40px;
+color: rgb(94, 94, 215);
+background-color:black ;
+margin-bottom: 20px;
+height: 250px;
+}
